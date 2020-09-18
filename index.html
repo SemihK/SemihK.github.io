@@ -1,80 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> My WebPage </title>
-</head>
-<body>
-    .card
-	.card-back
-		.line-numbers
-			div 1
-			div 2
-			div 3
-			div 4
-			div 5
-			div 6
-			div 7
-			div 8
-			div 9
-		code
-			span.variable const 
-			span.function aboutMe 
-			span.operator = 
-			span {
-			.indent 
-				span.property name
-				span.operator : 
-				span.string 'Semih Kesgin'
-				span ,
-			
-			.indent 
-				span.property title
-				span.operator : 
-				span.string 'Jr.Developer'
-				span ,
-			.indent 
-				span.property contact
-				span.operator : 
-				span {
-				.indent 
-					span.property email
-					span.operator : 
-					span.string 'semihkesgin@outlook.com'
-					span ,
-				.indent
-					span.property website
-					span.operator :
-					span.string 'semihk.github.io'
-				span }
-			span }
-	.card-front
-		.line-numbers
-			div 1
-			div 2
-			div 3
-			div 4
-			div 5
-			div 6
-			div 7
-			div 8
-			div 9
-		code
-			span.variable this
-			span .
-			span.method addEventListener
-			span (
-			span.string 'mouseover'
-			span , 
-			span.function () => 
-			span { 
-			.indent
-				span.variable this
-				span .
-				span.property flipCard 
-				span = 
-				span.boolean true
-				span ;
-			span });
-</body>
+
+<!DOCTYPE HTML>
+<!--
+	
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+	<head>
+		<title>Hello My World!</title>
+		<link rel=”shortcut icon” href=”http://github.com/SemihK/semihk.github.io/assets/css/” />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="http://github.com/SemihK/semihk.github.io/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Semih Kesgin</h1>
+						<p>Jr.Developer &nbsp;&bull;&nbsp; Aviator &nbsp;&bull;&nbsp; A.Photographer</p>
+						<nav>
+							<ul>
+								<li><a href="https://www.twitter.com/SemihK1903" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://semihk.github.io/card.html" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="https://github.com/SemihK" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://semihk.github.io/mail.html" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								
+						</nav>
+						</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; <small>Untitled. Design:</small> <a><small>html5 up</small></a></span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
