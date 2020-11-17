@@ -590,7 +590,7 @@ body {
   background: var(--text-color);
 }
 :root {
-  --bg-color: #000000;
+  --bg-color: #222831;
   --text-color: #f9f6f7;
   --blog-gray-color: rgb(80, 80, 80);
   /* --background-image: linear-gradient(
